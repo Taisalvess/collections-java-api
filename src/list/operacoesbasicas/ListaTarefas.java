@@ -9,7 +9,7 @@ public class ListaTarefas {
 
     public ListaTarefas() {
         this.tarefas = new ArrayList<>();
-    } 
+    }
 
     public void adicionarTarefa(String descricao) {
         tarefas.add(new Tarefa(descricao));
